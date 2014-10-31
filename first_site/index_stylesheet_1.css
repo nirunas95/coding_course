@@ -1,0 +1,26 @@
+/* style tag targets header/body items of the same tag in css to format the page. 
+i.e. "h1 {}" targets only items with the h1 tag around it */
+/* ul li targets only the list items/text and not the bulletpoints. 
+Same applies for ol li */
+
+			h1 {
+				color: red;
+			}
+
+			h3 {
+				color: blue;
+				background-color: green;
+			}
+
+			p {
+				font-family: Arial;
+			}
+
+			#Languages_title {
+				color: orange;
+			}
+
+			
+			.language_item {
+				color: blue;
+			}
